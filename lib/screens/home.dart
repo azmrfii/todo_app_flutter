@@ -47,7 +47,7 @@ class _HomeState extends State<Home> {
                           bottom: 20,
                         ),
                         child: Text(
-                          'All ToDos',
+                          'All To`Dos',
                           style: TextStyle(
                             fontSize: 30,
                             fontWeight: FontWeight.w500,
@@ -110,6 +110,7 @@ class _HomeState extends State<Home> {
                     '+',
                     style: TextStyle(
                       fontSize: 40,
+                      color: Colors.white
                     ),
                   ),
                   onPressed: () {
@@ -189,7 +190,7 @@ class _HomeState extends State<Home> {
             minWidth: 25,
           ),
           border: InputBorder.none,
-          hintText: 'Search',
+          hintText: 'Search..',
           hintStyle: TextStyle(color: tdGrey),
         ),
       ),
@@ -212,7 +213,7 @@ class _HomeState extends State<Home> {
           color: Colors.transparent,
           child: ClipRRect(
             borderRadius: BorderRadius.circular(20),
-            child: Image.asset('assets/images/avatar.png'),
+            child: Image.asset('assets/images/profile.jpg'),
           ),
         ),
       ]),
